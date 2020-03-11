@@ -21,7 +21,7 @@ endif()
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(myqt
-        main.cpp
+        src/main.cpp
         )
 
 target_link_libraries(myqt PUBLIC
